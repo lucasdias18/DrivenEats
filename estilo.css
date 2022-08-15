@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #e5e5e5;
+}
+
+.topo {
+    width: 100%;
+    height: 92px;
+    background-color: #CF2B2B;
+    position: fixed;
+    top: 0;
+}
+
+.marca {
+    font-family: 'Righteous', cursive;
+    font-size: 44px;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-left: 21px;
+}
+
+.slogan {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    padding-left: 21px;
+}
+
+.titulo1 {
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+    margin-top: 123px;
+    margin-left: 19px;
+}
+
+.titulo {
+    font-family: 'Righteous', cursive;
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+    margin-left: 19px;
+}
+
+.menu-comida {
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+}
+
+.menu-comida div {
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    margin-top: 17px;
+    margin-bottom: 27px;
+    margin-left: 19px;
+    border-radius: 9px;
+}
+
+.menu-comida img {
+    width: 144px;
+    height: 87px;
+    margin-top: 18px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 4px;
+}
+
+.prato {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.descrição-prato {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+
+.preço {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 5px;
+    margin-left: 14px;
+    margin-bottom: 13px;
+}
+
+.menu-bebida {
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+}
+
+.menu-bebida div {
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    margin-top: 17px;
+    margin-bottom: 27px;
+    margin-left: 19px;
+    border-radius: 9px;
+}
+
+.menu-bebida img {
+    width: 144px;
+    height: 87px;
+    margin-top: 18px;
+    margin-left: 14px;
+    border-radius: 4px;
+}
+
+.bebida {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.descrição-bebida {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+
+.menu-sobremesa {
+    width: 100%;
+    display: flex;
+    overflow: scroll;
+}
+
+.menu-sobremesa div {
+    width: 172px;
+    background-color: #FFFFFF;
+    margin-top: 17px;
+    margin-bottom: 108px;
+    margin-left: 19px;
+    border-radius: 9px;
+}
+
+.menu-sobremesa img {
+    width: 144px;
+    height: 87px;
+    margin-top: 18px;
+    margin-left: 14px;
+    border-radius: 4px;
+}
+
+.sobremesa {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333333;
+    margin-top: 8px;
+    margin-left: 15px;
+}
+
+.descrição-sobremesa {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    color: #A6A6A6;
+    margin-top: 4px;
+    margin-left: 14px;
+}
+
+.fechar-pedido {
+    width: 100%;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.inabilitado {
+    background-color: #CBCBCB;
+    height: 61px;
+    border-style: none;
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+}

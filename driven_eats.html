@@ -35,19 +35,19 @@
     </div>
     <h1 class="titulo">Agora, sua bebida</h1>
     <div class="menu-bebida">
-      <button class="opção-bebida1">
+      <button onclick="escolherBebida(this)" class="opção-bebida">
         <img src="./imagens/feijoada.jpg" />
         <p class="bebida">Coca-Cola</p>
         <p class="descrição-bebida">Qualquer coisa</p>
         <p class="preço">R$ 5,90</p>
       </button>
-      <button class="opção-bebida">
+      <button onclick="escolherBebida(this)" class="opção-bebida">
         <img src="./imagens/coca-cola.jpeg" />
         <p class="bebida">Coca-Cola</p>
         <p class="descrição-bebida">Qualquer coisa</p>
         <p class="preço">R$ 5,90</p>
       </button>
-      <button class="opção-bebida">
+      <button onclick="escolherBebida(this)" class="opção-bebida">
         <img src="./imagens/coca-cola.jpeg" />
         <p class="bebida">Coca-Cola</p>
         <p class="descrição-bebida">Qualquer coisa</p>
@@ -56,19 +56,19 @@
     </div>
     <h1 class="titulo">Por fim, sua sobremesa</h1>
     <div class="menu-sobremesa">
-      <button class="opção-sobremesa1">
+      <button onclick="escolherSobremesa(this)" class="opção-sobremesa">
         <img src="./imagens/petit-gateau.jpg" />
         <p class="sobremesa">Petit Gâteau</p>
         <p class="descrição-sobremesa">Qualquer coisa</p>
         <p class="preço">R$ 8,90</p>
       </button>
-      <button class="opção-sobremesa1">
+      <button onclick="escolherSobremesa(this)" class="opção-sobremesa">
         <img src="./imagens/petit-gateau.jpg" />
         <p class="sobremesa">Petit Gâteau</p>
         <p class="descrição-sobremesa">Qualquer coisa</p>
         <p class="preço">R$ 8,90</p>
       </button>
-      <button class="opção-sobremesa1">
+      <button onclick="escolherSobremesa(this)" class="opção-sobremesa">
         <img src="./imagens/petit-gateau.jpg" />
         <p class="sobremesa">Petit Gâteau</p>
         <p class="descrição-sobremesa">Qualquer coisa</p>
@@ -84,6 +84,23 @@
     // const selecionado = document.querySelector(".opção-comida");
 
     elemento.classList.toggle("selecionado");
-}
+    }
+
+    function escolherBebida(elemento) {
+        // const selecionado = document.querySelector(".opção-comida");
+
+        elemento.classList.toggle("selecionado");
+    }
+
+    function escolherSobremesa(elemento) {
+        // const selecionado = document.querySelector(".opção-comida");
+
+        elemento.classList.toggle("selecionado");
+    }
+
+    function calcularPreco(elemento) {
+      let selecao = document.querySelector(".selecionado")
+    }
+    
   </script>
 </html>
